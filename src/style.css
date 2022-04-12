@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+    color: black;
+}
+:root {
+    --gray-text: #858585;
+    --background-img: #464646;
+    --background-form: #F4F4F4;
+    --border-color: #E4E4E4;
+    --background-button: #1A1B1F;
+    --background-button-hover: #2b2c31;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+}
+.padding_whitespace1{
+    padding-top: 25vh;
+}
+.none{
+    display: none;
+}
+/*----------------------------------------------------------------
+    NAV
+------------------------------------------------------------------*/
+.test{
+    display: flex;
+    justify-content: flex-end;
+}
+.test a{
+    padding: 3.5vh;
+    padding-bottom: 0;
+    text-decoration: none;
+    font-size: 14px;
+}
+.Not_Here{
+    color: var(--gray-text);
+}
+
+/*---------------------------------------------------------------
+    LOGO
+-----------------------------------------------------------------*/
+.Div_Logo{
+    padding-left: 7.5vh;
+    display: flex;
+}
+.title_logo{
+    font-size: 3vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.sur_title_logo{
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+}
+/*-------------------------------------------------------------------
+    HOME
+---------------------------------------------------------------------*/
+.text_intro_home{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+.text_intro_home div{
+    width: 50%;
+}
+.Pseudo_home{
+    font-size: 2.5vh;
+    font-family: 'Inter', sans-serif;
+}
+.Slogant_text_home{
+    font-size: 6vh;
+    font-family: 'Inter', sans-serif;
+}
+.gray_text{
+    color: var(--gray-text);
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 1.5vh;
+}
+
+.projets_div_home{
+    padding-top: 15vh;
+}
+.Div_Flex_home{
+    display: flex;
+    width: 100%;
+}
+.project1_home{
+    padding: 2.5vh;
+    padding-right: 0;
+    width: 50%;
+}
+.project1_home span{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    background-color: var(--background-img);
+}
+
+.project2_home{
+    padding: 2.5vh;
+    width: 100%;
+}
+.project2_home span{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    background-color: var(--background-img);
+}
+
+.project3_home{
+    padding: 2.5vh;
+}
+.project3_home span{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    background-color: var(--background-img);
+}
+/*---------------------------------------------------------------
+    EXPERIENCES
+-----------------------------------------------------------------*/
+.text_exp_contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+.Div_center_contact{
+    width: 50%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.Div_Flex_contact{
+    width: 100%;
+    display: flex;
+}
+.content_div_exp_contact{
+    padding: 15vh;
+    padding-top: 0;
+    padding-left: 0;
+}
+.Responsive_1_contact{
+    display: flex;
+}
+.Responsive_2_contact{
+    display: flex;
+}
+.Responsive_3_contact{
+    display: flex;
+}
+
+/*-------------------------------------------------------------------
+    FORM
+---------------------------------------------------------------------*/
+.background_form_contact{
+    background-color: var(--background-form);
+    margin: 2.5vh;
+}
+.separation_content_form_contact{
+    display: flex;
+    justify-content: center;
+}
+.width_form_contact{
+    width: 46%;
+    padding: 10vh;
+    padding-left: 0;
+}
+.width_form_contact h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 4vh;
+}
+label{
+    font-family: 'Inter', sans-serif;
+}
+.padding_form_contact{
+    margin-top: 7.5vh;
+}
+.input1_name_form_contact{
+    width: 90%;
+    height: 4vh;
+    border-color: var(--border-color);
+    border: var(--border-color) 3px solid;
+    padding-left: 2vh;
+}
+.textarea2_name_form_contact{
+    min-width: 95%;
+    min-height: 15vh;
+    max-width: 95%;
+    max-height: 50vh;
+    border-color: var(--border-color);
+    border: var(--border-color) 3px solid;
+}
+textarea{
+    padding: 2vh;
+    padding-top: 2vh;
+}
+.Div_Flex_form_contact{
+    display: flex;
+    width: 100%;
+}
+.Div_Flex_form_contact div{
+    margin-top: 6vh;
+    width: 100%;
+}
+button{
+    background-color: var(--background-button);
+    border: none;
+    margin-top: 5vh;
+    
+    color: white;
+    font-size: 1.5vh;
+    font-family: 'Inter', sans-serif;
+
+    padding: 2vh 7.5vh;
+}
+button:hover{
+    background-color: var(--background-button-hover);
+}
+/*-------------------------------------------------------------------
+    FOOTER
+---------------------------------------------------------------------*/
+.Div_flex_footer{
+    display: flex;
+    padding-top: 2.5vh;
+    padding-bottom: 2vh;
+}
+.Div_flex_footer div{
+    display: flex;
+    margin-left: auto;
+    padding-right: 3vh;
+}
+.Div_flex_footer div p{
+    margin-left: 5vh;
+}
+.text_bymapoto_footer{
+    padding-left: 2.5vh;
+}
+/*-------------------------------------------------------------------
+    RESPONSIVE
+---------------------------------------------------------------------*/
+@media screen and (max-width: 1700px) {
+    .Responsive_3_contact{
+        display: block;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .Responsive_2_contact{
+        display: block;
+    }
+    .Div_center_contact{
+        width: 80%;
+    }
+    .text_intro_home div{
+        width: 80%;
+    }
+    .Div_Flex_home{
+        display: block;
+        width: 100%;
+    }
+    .project2_home{
+        padding: 2.5vh;
+        width: auto;
+    }
+    .project2_home span{
+        display: block;
+        width: 100%;
+        height: 50vh;
+        background-color: var(--background-img);
+    }
+    .project1_home{
+        padding: 2.5vh;
+        width: auto;
+    }
+    .project1_home span{
+        display: block;
+        width: 100%;
+        height: 50vh;
+        background-color: var(--background-img);
+    }
+}
+@media screen and (max-width: 810px) {
+    .Responsive_1_contact{
+        display: block;
+    }
+    .Div_center_contact{
+        width: 90%;
+    }
+    .text_intro_home div{
+        width: 90%;
+    }
+    .Div_Logo{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Div_Flex_contact{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-left: 10%;
+        
+        display: block;
+    }
+    .test{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .test a{
+        padding: 2.5vh;
+        padding-bottom: 0;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .project1_home span{
+        display: block;
+        width: 100%;
+        height: 30vh;
+        background-color: var(--background-img);
+    }
+    .project2_home span{
+        display: block;
+        width: 100%;
+        height: 30vh;
+        background-color: var(--background-img);
+    }
+    .project3_home span{
+        display: block;
+        width: 100%;
+        height: 30vh;
+        background-color: var(--background-img);
+    }
+}
